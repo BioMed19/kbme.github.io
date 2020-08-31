@@ -1,11 +1,13 @@
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.00">
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <style>
-    
+
+<style>
+
 	*{
 	   padding:0px;
 	   margin:0px;
@@ -15,16 +17,16 @@
 	 
 	 body{
 	  font-family:montserrat;
-	   background: url(btme.jpg) no-repeat ; 
+	   background: url(bgee.jpg) no-repeat ; 
   
   background-size:100%
-  
+   background:white;
 	     }
 	 nav{
 	  background:#0082e6;
 	  height:80px;
 	  width:100%;
-
+     
 	   }
        #title {
 	  color:white;
@@ -74,75 +76,243 @@
 		       }
       #check {
 	    display:none;
-		
-           }	 
-	  .note{
+		}
+		.note{
+		position:relative;
           font-family: 'Luckiest Guy', cursive;
-		    font-size:40px;
+		    font-size:80px;
 			opacity:100%;
 			margin-left:40px;
 			padding-bottom:70px;
-          } 
-		 .card-section{
-		 padding:5%;
-		 text-align:center;
+			text-align:center;
+			padding-top:50px;
+		     color:transparent;
+			 letter-spacing:30px;
+			-webkit-text-stroke:2px green;
+		    background:url(water.jfif);
+			background-position:0px 15px;
+			-webkit-background-clip:text;
+			background-repeat:repeat-x;
+		    	animation:text 2s linear infinite alternate-reverse;
+          } 			
+	    #welcome{
+		   width:100%;
+		    background:url(https://media2.giphy.com/media/Dpz3px6erCFeU/200w.webp?cid=ecf05e47lfawj3x7f35yaumh4axrknk7a3y5w0npz706duu5&rid=200w.webp) no-repeat ;
+  
+      background-size:100%;
+       
+	  
+		      }
+			  
+		#kbme {
+		   text-align:center;
+		   text-transform:uppercase;
+		   padding-top:20px;
+		
 		   }
-        .col-lg-4{
-		 padding:2% 2%;
+		#kuet:hover{
+		   color:blue;
+		     }
+		 #kuet{
+		  border:2px solid black;
+		 
+		  font-size:30px;
 		  }
-		 .card:hover{
-		  box-shadow:5px 10px 20px 1px black;
-		   }
-		  
-		.rt{
-		    color:white;
-			animation:color 1s linear infinite alternate;
-		    
-		   }
-		  @keyframes color{
-		   0%{background:black;}
-		   50%{background:blue;}
-		   
-		   }
-		  .card{
-		   border:2px solid black;
-		     
+		 button {
+		   margin-left:0px;
+		     }
+		
+        #battery{
+		 height:80px;
+		 width:60px;
+		 border:3px solid black;
+		 position:relative;
+		 left:40px;
+		 top:30px;
+		  }
+		 #cathode{
+		   height:100px;
+		   width:450px;
+		   border:3px solid black;
+		   position:relative;
+		   left:300px;
+		   border-radius:45px;
+		   top:-80px;
+		 }
+		
+		 #tube1{
+		    height:80px;
+			
+			width:3px;
+			border:1.5px solid black;
+			background:red;
+			left:40px;
+			position:relative;
+			top:5px;
+			 }
+		
+		 #tube2 {
+		    height:80px;
+			width:3px;
+			border:1.5px solid black;
+			background:red;
+			left:-40px;
+			position:relative;
+			top:-75px;
+			float:right
+			 }
+		  #cooler{
+		   height:5px;
+		   width:150px;
+		   background:black;
+		   position:relative;
+		   top:50%;
 		    }
-		   
-         .video{
-		   display:inline-block;
-		   margin:2% 2%;
-		   border:2px solid black;
+		
+		 #watercooler{
+		    height:130px;																																0px;
+			width:25px;
+			border:10px solid black;
+			
+			position:relative;
+			top:-60px;
+			left:150px;
+			border-left:none;
+			border-bottom:none;
 		   }
-
-         body{
-		  background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-      animation:bg 4s linear infinite alternate;
-           }
+		
+		#wire1{
+		   width:150px;
+		   height:2px;
+		   background:black;
+		   position:relative;
+		   top:-20px;
+		   left:-145px;
+		   }
+				  
+			 
+		#wire2 {
+           width:4px;
+           height:100px;
+           background:black	;
+        
+           position:relative;
+		   left:-50px;
+		   top:-48px;
+		   
+		   }
+		#electron1{
+          width:20px;
+		  height:20px;
+		  border:2px solid black;
+		  border-radius:10px;
+		  background:blue;
+		 position:relative;
+		  }
+            
+           #electron2{
+          width:20px;
+		  height:20px;
+		  border:2px solid black;
+		  border-radius:10px;
+		  background:blue;
+		  position:relative;
+		  }		 
+			
+		 #electron3{
+          width:20px;
+		  height:20px;
+		  border:2px solid black;
+		  border-radius:10px;
+		  background:blue;
+		  position:relative;
+		  }	
+		  #ele{
+		    position:relative;
+			display:block;
+			}
+		 #water{
+             height:80px;
+             width:10px;
+			 background:skyblue;
+			 position:relative;
+			 left:-10px;
+			 top:-10px;
+			 border-top-left-radius:10px;
+			 display:none;
+			  }
+              			 
+		 #line1{
+               height:200px;
+               width:3px;
+			   background:black;
+			   transform:rotate(55deg);
+			   position:relative;
+			   left:-80px;
+			    display:none;
+              }			   
+			
+			
+			     			 
+		 #line2{
+               height:200px;
+               width:3px;
+			   background:black;
+			   transform:rotate(55deg);
+			   position:relative;
+			   left:-80px;
+			   top:-180px;
+			   display:none;
+              }		
+		#imm{
+		   transform:rotateY(140deg);
+		   position:relative;
+		   left:450px;
+		   top:-70px;
+		   z-index:-3;
+		    }
+			#pressure{
+               height:50px;
+                width:50px;
+				border:2px solid black;
+                border-radius:25px;
+				position:relative;
+				left:500px;
+				top:-75px;
+				z-index:-4;
+				border-bottom:none;
+				border-bottom-left-radius:0px;
+				border-bottom-right-radius:0px;
+               }				
+		   #kata{
+		      height:25px;
+			  width:3px;
+			  background:black;
+			  position:relative;
+			  left:20px;
+			  top:10px;
+			  
+			}
+		#im{
+		    z-index:99;
+			position:relative;
+			left:400px;
+			top:400px;
+			height:500px;
+			display:none;
+			}
+	     #ccc {
+		   display:none;
+		     }
+	 @keyframes text{
+       	 0% {background-position:-250px 45px;}
+	
+	  100%{background-position:-1000px 10px};
+	 }
+	  
  
-		   @keyframes bg {
-		    0%{ background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); }
  
-           50%{background-color: #fad0c4;
-background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);}
-          
-		  80% {background-color: #fad0c4;
-background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);}
-          
-		  100% {background-color: #f8f9d2;
-background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);}
-      }
-
-		 iframe{
-    margin-left:500px;
-    }	
-		   
-		   
-		   
-		   
-		   @media only screen and (max-width:760px){
+        @media only screen and (max-width:760px){
 		  #title {
 		    font-size:20px;
 			padding-left:40px;
@@ -156,13 +326,13 @@ background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);}
        #menu {
             position:absolute;
 		  width:100%;
-		  height:100vh;
+		  height:250vh;
 		  background:#2c3e50;
 		  top:80px;
 		  left:-100%;
 		  text-align:center;
 		  transition:all 0.5s;
-		  z-index:+1;
+		  z-index:+8;
 		  }
 		  
 	nav ul li {
@@ -180,33 +350,122 @@ background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);}
 	  #check:checked ~ul{
 	     left:0;
 		  }
-      card-section{
-		 padding-left:25px;
-		 text-align:center;
-		   }
-		 
-       #car{
-	    text-align:center;
-		padding-left:15%;
-		 }
-	 
-	 .video{
-		   display:inline-block;
-		   margin:2% 2%;
-		   border:2px solid black;
-		   margin-left:25px;
+
+       
+         #kuet{
 		  
+		  font-size:17px;
+		  }
+		  #kbme {
+		   
+		   font-size:30px;
+		
 		   }
-	    iframe{
-    margin-left:5px;
-    }	
-		 
-	}
-		 </style>
-		  </head>
-<body>
+         .note{
+          font-family: 'Luckiest Guy', cursive;
+		    font-size:60px;
+			opacity:100%;
+			margin-left:10px;
+			padding-bottom:80px;
+			letter-spacing:60px;
+			position:relative;
+			top:0px;
+			
+		 }
+	
+ 
   
-  <nav> 
+	
+	    #battery{
+		 height:80px;
+		 width:60px;
+		 border:3px solid black;
+		 position:relative;
+		 left:0px;
+		 top:30px;
+		  }
+	
+	   #wire2 {
+           width:4px;
+           height:53px;
+           background:black	;
+        
+           position:relative;
+		   left:-30px;
+		   top:-25px;
+		   
+		   z-index:-222;
+		   }
+	   #wire1{
+		   width:75px;
+		   height:2px;
+		   background:black;
+		   position:relative;
+		   top:-20px;
+		   left:-30px;
+		   }
+	
+	    #cathode{
+		   height:100px;
+		   width:450px;
+		   border:3px solid black;
+		   position:relative;
+		   left:100px;
+		   border-radius:45px;
+		   top:-80px;
+		 }
+	
+	
+	   #pressure{
+               height:50px;
+                width:50px;
+				border:2px solid black;
+                border-radius:25px;
+				position:relative;
+				left:300px;
+				top:-75px;
+				z-index:-4;
+				border-bottom:none;
+				border-bottom-left-radius:0px;
+				border-bottom-right-radius:0px;
+               }	
+	
+	   #imm{
+		   transform:rotateY(140deg);
+		   position:relative;
+		   left:300px;
+		   top:-70px;
+		   z-index:-3;
+		   height:150px;
+		    }
+	   button{
+	        display:inline-block;
+		    position:relative;
+			left:-300px;
+		     }
+	   
+	
+	   #ccc {
+		   display:block;
+		     }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+    
+		
+</style>
+
+</head>
+<body>
+<nav> 
  <input type="checkbox" id="check">
  <label for="check" class="checkbtn">
     <b>Menu</b>
@@ -226,28 +485,212 @@ background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);}
 	
    </ul>
      
-</nav></br></br> 
-<marquee behaviour="scroll" direction="left" style="background:yellow;">Physics bot will be uploaded regularly and we gonna make it very user friendly.All the Definitions,equations and any question about Physics of 1st year 1st semister ,you will get here In Sha Allah!!!</marquee>
-</br></br>
+</nav> 
 
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/39830dff-674d-4811-821b-f12f74016b73">
-</iframe>
+<div id="welcome"><div id="text"><h1 class="note">BME</h2></div>  
+</div>
 
 
+</br> 
+<marquee behaviour="scroll" direction="left"    Scrollamount="5" style="background:yellow; "><b>New Uploads will be shown here</b></marquee>
+
+<h1 id="kbme" style="background:green;padding-bottom:20px;color:white;"><b>About BME</b> </h1>
+ 
+ <p id="kuet" style="text-align:justify;padding:2% 2%;">BME stands for basically Biomedical Engineering, a vast field where you can do something great in biological body by using physical components.This is the field where physical and medical science mix with each other.Biomedical gives you a scope of making artificial bioproducts which are smoothly replacable in our body area.This is our mejor subject, named Introduction to Biomedical Engineering in 1st semistrer 1st term.The Topics we gonna learn :<b>basic of Biomaterials,bio-imaging,instrumentation etc etc</b></p>
+    </br>
+
+<div style="background:black;">
+<center style="color:white;"><b>TOPICS</b></center>				
+<ul style="text-align:center; font-family:oblique;font-weight:bold;font-transform:uppercase;color:white;" >
+
+  <li>Fundamental concepts</li>
+  <li>Electrophysiology:</li>
+  <li>Biomaterials</li>
+  <li>Bio-signals and bio-signal processing:</li>
+  <li>Bioinstrumentation</li>
+   <li>Biomechanics</li>
+   <li>Medical imaging</li>
+   <li>Overview of various topics</li>
+   
+</ul>				
+	</div></br>
+	
+<button align="center" style="width:150px;background:#cb56ef;color:white;font-weight:bold;positon:relative;left:0px;">BME Syllabus PDF</button></br></br></br>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<h3 align="center">X-Ray Simulator</h3>	
+<p id="ccc" style="background:yellow">Please Rotate Your Phone for better simulation .We will launch it for android very soon.Now you will get best view in Computer</p>
+<div id="xray">
+<img id="im" src="xray.jfif">
+<div id="battery"><p id="bat" style="color:transparent;-webkit-text-stroke:1px green;position:relative;left:10px;">SO</br>UR</br>CE</p></div>
+<div id="pressure"><div id="kata"></div></div>
+<div id="cathode">
+  <div id="tube1">
+  <div id="ele">
+  <div id="electron1"></div>
+  <div id="electron2"></div> 
+  <div id="electron3"></div></div>
+    <div id="wire1">
+	  <div id="wire2"></div></div></div>
+  <div id="tube2">
+ 
+    <div id="cooler"><div id="watercooler">
+	    <div id="water"></div></diV></div>
+		 
+		 <div id="line1"></div>
+		 <div id="line2"></div>
+       </div>
+  
+</div>
+  <img id="imm" src="human.jpg" height="260">
+   <div id="bttn" style="float:right;position:relative;left:700px;top:-200px;">
+   <button onclick="batt()" style="display:block;">Source On</button>
+   <button onclick="move()" style="display:block;">Battery Connection</button>
+    <button onclick="pre()" style="display:block;">Pressure Reduce</button>
+   <button  onclick="wat()"style="display:block;"> Cooling mechine</button>
+   <button onclick="result()"style="display:block;">Result</button>
+   <button onclick="off()"style="display:block;">off</button>
+   </div>
+</div>
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
 
 
+ 
+
+
+
+
+
+
+	
+
+
+
+<script>
+   var battery =document.getElementById('battery');
+ var bat=document.getElementById('bat');
+ 
+ 
+ function batt()
+   {  
+ 
+     battery.style.background='green';
+	 bat.innerText="ON";
+	 bat.style.color='red';
+	 bat.style.fontSize='30px';
+	 bat.style.fontWeight='bold';
+	 }
+	 
+function pre()
+    {
+	   var pre=document.getElementById("kata");
+	    pre.style.transform='rotate(45deg)';
+      alert("Pressure is Reduced");
+   }
+	 
+	 
+ function move() 
+    {  
+	  var pre=document.getElementById("kata");
+	  var elem=document.getElementById("electron1");
+	  var elem1=document.getElementById("electron2");
+	  var elem2=document.getElementById("electron3");
+	  var line1=document.getElementById("line1");
+	  var pos=0;
+	  var d=setInterval(mov,1);
+	  var wirer2=document.getElementById('wire2');
+       if(bat.style.color=='red'){
+	   wire2.style.transform='rotate(90deg)';
+       }
+
+ 
+
+
+	   
+		 function mov()
+		    {
+			  if(pos==350)
+                 {			  
+                    clearInterval(d);
+					line1.style.display=('none','block');
+					line2.style.display=('none','block');
+				 }
+			  else
+			    { 
+				 if(bat.style.color=='red'&& pre.style.transform =='rotate(45deg)'){
+				  pos=pos+5;
+				  elem.style.left=pos+'px';
+				  elem1.style.left=pos+'px';
+				  elem2.style.left=pos+'px';
+				  
+				   }
+				  else  
+				  {
+				    alert("Reduce pressure");
+				   }
+				   
+				}
+	        }
+			
+	}
+	
+	
+	function wat()
+	 {
+	   var water=document.getElementById("water");
+	   water.style.display=('none','block');
+	 }
+	 
+   function result()
+    {
+	   var im = document.getElementById('im');   
+	   if(water.style.display=='block'){
+	   alert("Xray SuccessFul");
+	   im.style.display=('none','block');
+	    }
+	  else{
+	    alert("Supply water to anode");
+	   } 
+	}
+	
+   function off()
+    {
+	 var battery =document.getElementById('battery');
+   var im = document.getElementById('im'); 
+  
+  var elem=document.getElementById("electron1");
+	  var elem1=document.getElementById("electron2");
+	  var elem2=document.getElementById("electron3");
+    var line1=document.getElementById("line1")
+	var line2=document.getElementById("line2")
+	
+	battery.style.background='white';
+	 bat.innerText="off";
+	 bat.style.color='transparent';
+	 bat.style.fontSize='40px';
+	 bat.style.fontWeight='bold';
+    im.style.display=('block','none');
+	  elem.style.left='0px';
+	  elem1.style.left='0px';
+	  elem2.style.left='0px';
+	line1.style.display=('block','none');
+	line2.style.display=('block','none');
+    
+	 }
+	  
+</script>
 </body>
- </html>
+</html>
